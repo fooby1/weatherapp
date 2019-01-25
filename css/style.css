@@ -1,0 +1,111 @@
+body {
+  background: #2b3e4f;
+  font-family: 'Lato';
+  margin: 10% 30% 10% 30%;
+  color: #ebebeb;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h1, p, h2, h3 {
+  display: inline;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input, button, submit {
+  border: none;
+  background: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+button:focus {
+  outline-style: none;
+}
+
+
+
+#container {
+  background: #4e5d6b;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  color: #ebebeb;
+  font-weight: 400;
+}
+
+#theTime {
+  color: #ebab5b;
+  padding-left: 5px;
+  font-weight: 400;
+  font-size: 16.9px;
+}
+
+#title {
+  background: #485562;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  padding: 10px 5px 10px 10px;
+}
+
+#theIcon {
+  float: left;
+  padding: 15px 10px 0px 20px;
+  font-size: 50px;
+}
+
+#weather {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+
+#temp {
+  font-weight: 700;
+  font-size: 35px;
+  color: #e1662c;
+}
+
+#condition {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#thePlace {
+  font-size: 26px;
+  font-weight: 300;
+  color: #359bc3;
+}
+
+#thePlace h1 {
+  font-weight: 300;
+}
+
+.wi-umbrella {
+  margin-left: 10px;
+}
+
+.wi-sunset {
+  margin-left: 10px;
+}
